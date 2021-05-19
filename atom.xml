@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yuchen</title>
+  <icon>https://www.gravatar.com/avatar/9bf0da8d8f7dd39d92a50b86b7d22e55</icon>
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-05-19T14:35:27.360Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Yuchen</name>
+    <email>wangyuchen0709@126.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/05/19/hello-world/"/>
+    <id>http://example.com/2021/05/19/hello-world/</id>
+    <published>2021-05-19T14:35:27.360Z</published>
+    <updated>2021-05-19T14:35:27.360Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>如何搭建一个hexo博客(Hexo + 终端篇)</title>
+    <link href="http://example.com/2021/05/16/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AAhexo%E5%8D%9A%E5%AE%A2%20/"/>
+    <id>http://example.com/2021/05/16/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AAhexo%E5%8D%9A%E5%AE%A2%20/</id>
+    <published>2021-05-16T10:54:21.054Z</published>
+    <updated>2021-05-17T12:38:00.534Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>个人博客在风靡一段时间后，已经<mark class="hl-label pink">渐渐淡出</mark> 人们的视线,现如今只有程序员（媛）们还在坚持。</p><p>对于发博客来说，其实有很多其他的选择，如CSDN和简书（我有用过），但这些博客自由度不高，内容和主题都受限。而个人博客是自由的沃土，写什么都不会<mark class="hl-label default">404</mark> （除非程序崩了），博主在其中可以畅所欲言，这是真正的个人小空间！</p><p>自由发声，写我所想。这么好的事情，为什么只有程序员（媛）们知道，我想作家们、画家们或许也会需要这样的一个平台，而不是被动地去寻找。</p><p>其实搭建个人博客非常得简单，但现目前网上留存的教程是针对有编程基础的人，让很多人望而却步。所以我想尽力写一篇<mark class="hl-label pink">保姆级</mark> 教程，让无编程基础的人都拥有自己的个人博客。</p><p>话不多说，让我们开始吧！</p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>现在这个博客是个人搭建的。我的电脑是mac，框架是<a href="https://hexo.io/zh-cn/">hexo</a>，主题为<a href="https://github.com/jerryc127/hexo-theme-butterfly">butterfly</a>，搭建在<a href="https://github.com/">github</a>上，写md文件使用的<a href="https://www.typora.io/">Typora</a>，评论系统为<a href="https://twikoo.js.org/quick-start.html#%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8">Twikoo</a>和<a href="https://valine.js.org/">valine</a>。</p><p>我们先来讲讲hexo吧。</p><p>Hexo如他的官网所说，是一种<mark class="hl-label blue">快速、简洁且高效</mark> 的博客框架。除了hexo之外，博客框架还有wordpress和emblog。但hexo是目前收到好评最多的，相关教程也多，比较容易学习。所以建议新手也和我一样选择hexo当作框架。</p><h3 id="Node-Js"><a href="#Node-Js" class="headerlink" title="Node.Js"></a>Node.Js</h3><p>搭建Hexo需要先下载<a href="https://nodejs.org/">Node.js</a>(点击这个链接，下载node.js)。然后我们需要打开终端检查是否下载完毕。</p><h2 id="终端介绍"><a href="#终端介绍" class="headerlink" title="终端介绍"></a>终端介绍</h2><p>在搭建的过程中，终端的使用频率非常高，所以学习终端是非常必要的。</p><p>mac找到终端的话，按<mark class="hl-label blue">command和空格</mark> 调出搜索，搜索里输入terminal或者终端，再敲击回车将会得到以下的面板。</p><img src="https://res.cloudinary.com/dqu4r6nu5/image/upload/v1621242359/终端图片_qtzm4x.png" style="zoom:50%;" /><h3 id="终端命令行"><a href="#终端命令行" class="headerlink" title="终端命令行"></a>终端命令行</h3><p>在其中输入一些命令，便可以进行一些操作。我本来想偷懒转载一下大佬们的命令行介绍，结果发现没有大佬写这个（哭），还是认认真真地写吧，立的flag不能倒。</p><p>注：在输入命令后，要按回车，命令才生效。</p><p>下面是一些基本命令：</p><ol><li><mark class="hl-label green">sudo</mark> <mark class="hl-label green">su</mark> ：将切换到root用户，输入完按回车之后要输入本机密码，密码输完了才能进入。注：在输密码时，出于安全考虑，密码内容不会显现出来。</li><li><mark class="hl-label green">ls</mark> ：查看该目录下有什么东西。后面可跟不同的参数： -w：显示中文， -l：详细信息， -a： 显示隐藏文件。一般都会写ls -l看得更清楚。</li><li><mark class="hl-label green">pwd</mark> ：查看当下路径，处于什么位置，用于检查。</li><li><mark class="hl-label green">cd</mark> <mark class="hl-label green">文件名</mark> ：进入某一文件，如cd blog，便是进入了blog这一文件。cd ..是返回上一级文件，cd ../..是返回上两级文件。</li><li><mark class="hl-label green">vim</mark> <mark class="hl-label green">文件名</mark> ：写文件。输入后会跳入写入模式。前期需要，后期不需要，会有专门的软件来写文件(上文提到的Typora)。</li><li><mark class="hl-label green">mkdir</mark> <mark class="hl-label green">文件名</mark> ：在当前路径下创建一个文件夹，文件名是后面输入的那个。</li></ol><p>好啦，基本的差不多就这些。</p><h3 id="具体实现"><a href="#具体实现" class="headerlink" title="具体实现"></a>具体实现</h3><p>下面是一些代码，按顺序输入终端即可。注：第四步将npm切换到了淘宝镜像，加速用的，因为有些东西需要在外网下载，如果有vpn，则不需要这一步。如果没有切换，命令行中出现的cnpm需<mark class="hl-label pink">替换成</mark> npm。我之前是淘宝镜像，后面切换回了原镜像，所以后面的教程大概率会写成npm，但这篇先写成cnpm吧。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">sudo su </span><br><span class="line">node -v <span class="comment">#查看node的版本，如果有数字说明好了</span></span><br><span class="line">npm -v <span class="comment">#查看npm的版本，如果有数字说明好了</span></span><br><span class="line">npm install -g cnpm --registery=https://registery.npm.taobao.org <span class="comment">#将npm切换到淘宝镜像</span></span><br><span class="line">cnpm -v <span class="comment">#查看下载好的版本 </span></span><br><span class="line">cnpm install -g hexo-cli <span class="comment">#下载hexo</span></span><br><span class="line">hexo -v <span class="comment">#验证是否下好hexo</span></span><br><span class="line">mkdir blog <span class="comment">#创建储存你博客的所有资料的文件夹</span></span><br><span class="line"><span class="built_in">cd</span> blog </span><br><span class="line">sudo hexo init <span class="comment">#初始化hexo，下完之后blog文件夹里会出现很多新下载好的文件</span></span><br><span class="line">hexo s <span class="comment">#在本地启动hexo，s意为start。出现 Hexo is running at http://localhost:4000.表示成功启动。</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><p>去往<a href="http://localhost:4000/">http://localhost:4000</a> ，你的个人博客就出现啦！网页会出现下面的样子，第一篇博客为Hello World。这是默认主题的样子，如果想更换的话，请看下一篇博客。</p><p><img src="https://res.cloudinary.com/dqu4r6nu5/image/upload/v1621254574/hexo_ntnfr1.jpg"></p><p>谢谢阅读！如果有什么想说的，请在下方的评论区<mark class="hl-label pink">留言</mark> 吧！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;个人博客在风靡一段时间后，已经&lt;mark class=&quot;hl-label pink&quot;&gt;渐渐淡出&lt;/mark&gt; 人们的视线,现如今只有程序员（</summary>
+      
+    
+    
+    
+    <category term="搭建博客" scheme="http://example.com/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="终端" scheme="http://example.com/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+  </entry>
+  
+</feed>
