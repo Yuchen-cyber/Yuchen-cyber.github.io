@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-05-19T14:35:27.360Z</updated>
+  <updated>2021-05-21T12:25:29.752Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AC%94%E8%AE%B0%EF%BC%88%E5%9B%A0%E7%89%B9%E7%BD%91%E6%A6%82%E8%BF%B0/"/>
+    <id>http://example.com/2021/05/21/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AC%94%E8%AE%B0%EF%BC%88%E5%9B%A0%E7%89%B9%E7%BD%91%E6%A6%82%E8%BF%B0/</id>
+    <published>2021-05-21T12:25:29.752Z</published>
+    <updated>2021-05-21T12:25:29.752Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title：计算机网络笔记（因特网概述）<br>tags：</p><ul><li>计算机网络</li><li>笔记<br>categories：计算机网络</li></ul><hr><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇为博主整理的学习笔记，看B站上的计算机网络微课堂之后整理的。感兴趣的朋友可以直接去B站上看，也可以看看我的笔记</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><mark class="hl-label pink">因特网服务提供者ISP</mark> （Internet Sevice Provider）：<p>普通用户通过ISP接入因特网的。所有人只要缴纳相应的费用，就可以拥有IP地址，从而连入因特网。举例子：中国的ISP有：中国电信、中国联通、中国移动。</p><h3 id="ISP的层次"><a href="#ISP的层次" class="headerlink" title="ISP的层次"></a>ISP的层次</h3><p>根据提供服务的覆盖面积大小及所拥有的IP地址数量的不同，ISP分成不同的层次；。</p><p>第一层是因特网主干网，为国际性区域，第一层之间直接互联。第二层ISP和一些大公司都是第一层ISP的用户，通常具用国家性或区域性规模覆盖，与少数第一层ISP相连。第三层又称为本地ISP，他们是第二层ISP的用户且只拥有本地范围的网络，如：校园网，企业网以及住宅用户。相隔较远的两台主机的通信可能需要经过多个ISP。</p><p>注：一个用户如果也能连接到因特网，那么他也能成为一个ISP。需要做的就是购买调制解调器或路由器等。</p><h3 id="因特网的标准化工作"><a href="#因特网的标准化工作" class="headerlink" title="因特网的标准化工作"></a>因特网的标准化工作</h3><p>因特网在制定起标准上的一个很大的特点是面向公众。</p><p>a. 因特网的所有RFC（request for comments）技术文档都可从因特网上免费下载。</p><p>b. 任何人都可以随时用电子邮件发表对某个文档的意见或建议。</p><p>制定因特网的正式标准要经过一下4个阶段：</p><ol><li><p>因特网草案（还不是RFC）</p></li><li><p>建议标准（是RFC了）</p></li><li><p>草案标准</p></li><li><p>因特网标准</p><p>注： 并不是所有RFC都是因特网标准，只有小部分的RFC是因特网标准</p></li></ol><h3 id="因特网的组成"><a href="#因特网的组成" class="headerlink" title="因特网的组成"></a>因特网的组成</h3><ol><li>边缘部分： 有所有链接在因特网上的主机组成。这部分是用户直接使用的，用来进行通信和资源共享。 例如： ipad，摄像头</li><li>核心部分： 有大量网络和连接这些网络的路由器组成。这部分是为边缘部分提供服务的。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title：计算机网络笔记（因特网概述）&lt;br&gt;tags：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;计算机网络&lt;/li&gt;
+&lt;li&gt;笔记&lt;br&gt;categories：计算机网络&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;he</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/05/21/Java%E9%A2%98%E5%BA%93/"/>
+    <id>http://example.com/2021/05/21/Java%E9%A2%98%E5%BA%93/</id>
+    <published>2021-05-21T06:13:19.165Z</published>
+    <updated>2021-05-21T06:20:16.482Z</updated>
+    
+    <content type="html"><![CDATA[<p>title: Java题库整理</p><p>tags：</p><ul><li>Java </li><li>题库</li></ul><p>categories： Java</p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>下面的题是我在一些网站上收集的，只写了对我自己有用的题，标明了出处。所以可能不是所有人都能用上。</p><p>是为几天后的考试准备的。其实我更想整理逻辑性方面的题，但不知道为什么大部分找到的都是概念题。</p><h2 id="题"><a href="#题" class="headerlink" title="题"></a>题</h2><h3 id="选择题"><a href="#选择题" class="headerlink" title="选择题"></a>选择题</h3><ol><li><p>类B是一个抽象类，类C是类B的非抽象子类，下列创建对象 x1 的语句中正确的是(    )。</p><p>A．B x1= new B( );        B．B x1= C( );    </p><p>C．C x1=new C( );         D．C x1= new B( );</p><p>选C</p><p>————————————————<br>原文链接：<a href="https://blog.csdn.net/weixin_41719737/article/details/86490339">https://blog.csdn.net/weixin_41719737/article/details/86490339</a></p></li><li><p>对于可以随着窗口的宽度变化而改变相应的控件的位置的布局对象是哪一种（）</p><p>A、FlowLayout         B、GridLayout</p><p>C、BordyLayout         D、CardLayout</p><p>选A</p><p>————————————————<br>原文链接：<a href="https://blog.csdn.net/weixin_41719737/article/details/86490339">https://blog.csdn.net/weixin_41719737/article/details/86490339</a></p></li><li><p>下面哪个赋值语句是错误的？（）</p><p>A、int i = 100         B、float f = 100.0</p><p>C、String s = “Hello world”        D、char c = ‘\123’</p><p>选B</p><p>float是单精度类型，double是双精度类型，如果不声明的话，默认小数都用double表示，所以如果要用floeat的话，则应该在其后加上f。所以正确的写法是 float f = 100.0f</p><p>————————————————<br>原文链接：<a href="https://wenku.baidu.com/view/3a7781c0dd88d0d233d46af4.html">https://wenku.baidu.com/view/3a7781c0dd88d0d233d46af4.html</a></p></li><li><p>下列语句序列执行后，k的值是（）</p><p>int m = 3, n = 6, k = 0;</p><p>While((m ++) &lt; ( – n))  </p><p>​    ++ k;</p><p>A. 0      B. 1    C.2     D. 3</p><p>选B</p><p>————————————————<br>原文链接：<a href="https://wenku.baidu.com/view/a8eca15f7cd184254a353548.html?rec_flag=default">https://wenku.baidu.com/view/a8eca15f7cd184254a353548.html?rec_flag=default</a></p></li><li><p>下列语句序列执行后，k 的值是( C )。 </p><p>int i=10, j=18, k=30; </p><p>switch( j - i ) </p><p>{ case 8 : k++; </p><p>case 9 : k+=2; </p><p>case 10: k+=3; </p><p>default : k/=j; </p><p>}</p><p>A) 31 B) 32 C) 2 D) 33</p><p>选C</p><p>因为没有break语句</p><p>————————————————<br>原文链接：<a href="https://wenku.baidu.com/view/a8eca15f7cd184254a353548.html?rec_flag=default">https://wenku.baidu.com/view/a8eca15f7cd184254a353548.html?rec_flag=default</a></p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;title: Java题库整理&lt;/p&gt;
+&lt;p&gt;tags：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Java &lt;/li&gt;
+&lt;li&gt;题库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;categories： Java&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlin</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
